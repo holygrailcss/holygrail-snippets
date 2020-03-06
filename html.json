@@ -1,0 +1,195 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"container full con texto centrado en el medio ": {
+		"prefix": "xcontainerfull",
+		"body": [
+		  "                   <section>",
+		  "            <div class=\"container\">",
+		  "                <div class=\"row height-md\">",
+		  "                    <div class=\"col-xs-12 align-vertical\">",
+		  "                        <div class=\"text-1 text-center \">",
+		  "                            <div class=\"h2\">Nuestro objetivo es que en 2020 todas nuestras tiendas en el mundo <br> sean",
+		  "                                eco-eficientes.</div>",
+		  "                        </div>",
+		  "                    </div>",
+		  "                </div>",
+		  "            </div>",
+		  "        </section>"
+		],
+		"description": "container full con texto centrado en el medio "
+	  },
+	  "container-half": {
+		"prefix": "xcontainerhalf",
+		"body": [
+		  "        <section class=\"bleed\">",
+		  "            <div class=\"container\">",
+		  "                <div class=\"row\">",
+		  "                    <div class=\"col-xs-12 col-sm-6\">${1:example}</div>",
+		  "                    <div class=\"col-xs-12 col-sm-6\">${2:example}</div>",
+		  "                </div>",
+		  "            </div>",
+		  "        </section>"
+		],
+		"description": "container-full"
+	  },
+
+	  "row con img izquierda": {
+		"prefix": "xrowa",
+		"body": [
+		  "                <!-- img izquierda  -->",
+		  "                <div class=\"row\">",
+		  "                    <div class=\"col-xs-12 col-sm-6\">",
+		  "                        <div class=\"cover-1 rat-1-1\">",
+		  "                            <div class=\"content align-vertical\">",
+		  "                                <img width=\"100%\"",
+		  "                                    src=\"https://static.massimodutti.net/3/static2/media/2019/home/assets/placeholder/bases/1-1.jpg\"",
+		  "                                    alt=\"\">",
+		  "                            </div>",
+		  "                        </div>",
+		  "                    </div>",
+		  "                    <div class=\"col-xs-12 col-sm-6\">",
+		  "                        <h3 class=\"h3\">Titulo massimo dutti",
+		  "                        </h3>",
+		  "                        <p>texto contenido</p>",
+		  "                        <h4 class=\"h4\">",
+		  "                          Subtitulo",
+		  "                        </h4>",
+		  "                        <p>",
+		  "                    texto contenido del subtitulo",
+		  "                        </p>",
+		  "                    </div>",
+		  "                </div>",
+		  ""
+		],
+		"description": "row con img izquierda"
+	  },
+
+	  "row con img derecha": {
+		"prefix": "xrowb",
+		"body": [
+		  "                <!-- img derecha  -->",
+		  "                <div class=\"row\">",
+		  "                    <div class=\"col-xs-12 col-sm-6\">",
+		  "                        <h3 class=\"h3\">Tiendas Massimo Dutti",
+		  "                        </h3>",
+		  "                        <p>ttttt.</p>",
+		  "                        <h4 class=\"h4\">",
+		  "                            Ahorramos energía y agua",
+		  "                        </h4>",
+		  "                        <p>",
+		  "                             texto",
+		  "                        </p>",
+		  "                    </div>",
+		  "                    <div class=\"col-xs-12 col-sm-6\">",
+		  "                        <div class=\"cover-1 rat-1-1\">",
+		  "                            <div class=\"content align-vertical\">",
+		  "                                <img width=\"100%\"",
+		  "                                    src=\"https://static.massimodutti.net/3/static2/media/2019/home/assets/placeholder/bases/1-1.jpg\"",
+		  "                                    alt=\"\">",
+		  "                            </div>",
+		  "                        </div>",
+		  "                    </div>",
+		  "                </div>"
+		],
+		"description": "row con img derecha"
+	  },
+	  "imagen": {
+		"prefix": "ximg",
+		"body": [
+		  "<img width=\"100%\" src=\"https://static.massimodutti.net/3/static2/media/2019/home/assets/placeholder/bases/2-1.jpg\" alt=\"\">"
+		],
+		"description": "imagen"
+	  },
+	  "text1 centrado al medio": {
+		"prefix": "xtext1",
+		"body": [
+		  "<div class=\"text-1 align-vertical height-md\">",
+		  "    <div class=\"text-1-content text-center\">",
+		  "        <h2 class=\"h1 mb-30\">JOIN LIFE</h2>",
+		  "        <p class=\"p1 mb-30\">",
+		  "            ¿Quieres saber más sobre nuestro compromiso?",
+		  "        </p>",
+		  "        <a href=\"\" class=\"btn btn-phantom  btn--xlarge\">",
+		  "            DESCUBRELO",
+		  "        </a>",
+		  "    </div>",
+		  "</div>"
+		],
+		"description": "text1 centrado al medio"
+	  },
+
+	  "card-8 video y texto mini centrado": {
+		"prefix": "xcard8",
+		"body": [
+		  "<div class=\"card-8\">",
+		  "    <div class=\"card-8-video\">",
+		  "        <video autoplay",
+		  "            src=\"https://static.massimodutti.net/3/static2/media/2019/home/assets/lookbook/header_man.mp4\"></video>",
+		  "    </div>",
+		  "    <div class=\"container-2\">",
+		  "        <div class=\"card-8-text text-center p2\">",
+		  "            card8",
+		  "        </div>",
+		  "    </div>",
+		  "</div>"
+		],
+		"description": "card-8 video y texto mini centrado"
+	  },
+	  "text-3 centrado titulo parrafo y boton": {
+		"prefix": "xtext3",
+		"body": [
+		  "<div class=\"text-3 align-vertical height-md\">",
+		  "    <div class=\"text-3-content text-center\">",
+		  "        <h2 class=\"h1 mb-30\">JOIN LIFE</h2>",
+		  "        <p class=\"p1 mb-30\">",
+		  "            ¿Quieres saber más sobre nuestro compromiso?",
+		  "        </p>",
+		  "        <a href=\"\" class=\"btn btn-phantom  btn--xlarge\">",
+		  "            DESCUBRELO",
+		  "        </a>",
+		  "    </div>",
+		  "</div>"
+		],
+		"description": "text-3 centrado titulo parrafo y boton"
+	  },
+	  "cover-4 fullvideobackground y texto centrado": {
+		"prefix": "xcover4",
+		"body": [
+		  "<div class=\"cover-4 height-full align-vertical bg-dark \">",
+		  "    <video autoplay",
+		  "        src=\"https://static.massimodutti.net/3/static2/media/2019/home/assets/lookbook/header_man.mp4\"></video>",
+		  "    <h1 class=\"fluid-h1\">",
+		  "        <img class=\"logo-full\"",
+		  "            src=\"https://static.massimodutti.net/3/static2/media/2019/home/assets/logo_withe.png?202002241250002015020785\"",
+		  "            alt=\"masimo runway\">",
+		  "    </h1>",
+		  "</div>"
+		],
+		"description": "cover-4 fullvideobackground y texto centrado"
+	  },
+	  
+	  "xcode": {
+		"prefix": "xcode",
+		"body": [
+		  "<pre><code class=\"language-markup\">",
+		  "${1:example}",
+		  "</code></pre>"
+		],
+		"description": "xcode"
+	  },
+
+
+}
