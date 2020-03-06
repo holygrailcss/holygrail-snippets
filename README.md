@@ -10,7 +10,7 @@ _holygrail snippets html.json_
 -xrowb             .row con img derecha
 -ximg              .imagen del static
 ```
-###componentes
+### componentes
 ```
 -xtext1             text centrado al medio
 
