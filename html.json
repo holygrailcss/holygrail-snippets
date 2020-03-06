@@ -16,11 +16,11 @@
 	"container full con texto centrado en el medio ": {
 		"prefix": "xcontainerfull",
 		"body": [
-		  "                   <section>",
+		  "        <section>",
 		  "            <div class=\"container\">",
 		  "                <div class=\"row height-md\">",
 		  "                    <div class=\"col-xs-12 align-vertical\">",
-		  "                        <div class=\"text-1 text-center \">",
+		  "                        <div class=\"text1 text-center \">",
 		  "                            <div class=\"h2\">Nuestro objetivo es que en 2020 todas nuestras tiendas en el mundo <br> sean",
 		  "                                eco-eficientes.</div>",
 		  "                        </div>",
@@ -116,8 +116,8 @@
 	  "text1 centrado al medio": {
 		"prefix": "xtext1",
 		"body": [
-		  "<div class=\"text-1 align-vertical height-md\">",
-		  "    <div class=\"text-1-content text-center\">",
+		  "<div class=\"text1 align-vertical height-md\">",
+		  "    <div class=\"text1-content text-center\">",
 		  "        <h2 class=\"h1 mb-30\">JOIN LIFE</h2>",
 		  "        <p class=\"p1 mb-30\">",
 		  "            ¿Quieres saber más sobre nuestro compromiso?",
@@ -131,28 +131,28 @@
 		"description": "text1 centrado al medio"
 	  },
 
-	  "card-8 video y texto mini centrado": {
+	  "card8 video y texto mini centrado": {
 		"prefix": "xcard8",
 		"body": [
-		  "<div class=\"card-8\">",
-		  "    <div class=\"card-8-video\">",
+		  "<div class=\"card8\">",
+		  "    <div class=\"card8-video\">",
 		  "        <video autoplay",
 		  "            src=\"https://static.massimodutti.net/3/static2/media/2019/home/assets/lookbook/header_man.mp4\"></video>",
 		  "    </div>",
 		  "    <div class=\"container-2\">",
-		  "        <div class=\"card-8-text text-center p2\">",
+		  "        <div class=\"card8-text text-center p2\">",
 		  "            card8",
 		  "        </div>",
 		  "    </div>",
 		  "</div>"
 		],
-		"description": "card-8 video y texto mini centrado"
+		"description": "card8 video y texto mini centrado"
 	  },
-	  "text-3 centrado titulo parrafo y boton": {
+	  "text3 centrado titulo parrafo y boton": {
 		"prefix": "xtext3",
 		"body": [
-		  "<div class=\"text-3 align-vertical height-md\">",
-		  "    <div class=\"text-3-content text-center\">",
+		  "<div class=\"text3 align-vertical height-md\">",
+		  "    <div class=\"text3-content text-center\">",
 		  "        <h2 class=\"h1 mb-30\">JOIN LIFE</h2>",
 		  "        <p class=\"p1 mb-30\">",
 		  "            ¿Quieres saber más sobre nuestro compromiso?",
@@ -163,12 +163,12 @@
 		  "    </div>",
 		  "</div>"
 		],
-		"description": "text-3 centrado titulo parrafo y boton"
+		"description": "text3 centrado titulo parrafo y boton"
 	  },
-	  "cover-4 fullvideobackground y texto centrado": {
+	  "cover4 fullvideobackground y texto centrado": {
 		"prefix": "xcover4",
 		"body": [
-		  "<div class=\"cover-4 height-full align-vertical bg-dark \">",
+		  "<div class=\"cover4 height-full align-vertical bg-dark \">",
 		  "    <video autoplay",
 		  "        src=\"https://static.massimodutti.net/3/static2/media/2019/home/assets/lookbook/header_man.mp4\"></video>",
 		  "    <h1 class=\"fluid-h1\">",
@@ -178,7 +178,7 @@
 		  "    </h1>",
 		  "</div>"
 		],
-		"description": "cover-4 fullvideobackground y texto centrado"
+		"description": "cover4 fullvideobackground y texto centrado"
 	  },
 	  
 	  "xcode": {
