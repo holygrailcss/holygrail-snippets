@@ -1,7 +1,7 @@
 # holygrail-snippets
 _holygrail snippets html.json_
 
-[Creados con ](https://snippet-generator.app/)
+[Creados con snippet generator ](https://snippet-generator.app/)
 
 
 ## Snippets 🚀
