@@ -12,7 +12,7 @@ _holygrail snippets html.json_
 -xrowleft         .row con imagen izquierda
 -xrowright        .row con img derecha
 -ximg             .imagen del static
--xtimeline
+-xtimeline        Año en columna izquierda   + descripción del año
 ```
 ### componentes
 ```
